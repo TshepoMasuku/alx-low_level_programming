@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print_alphabet- This programme prints the alphabet,
- * in lowercase, followed by a new line.
+ * print_alphabet_x10 - This programme prints the alphabet,
+ * in lowercase, followed by a new line ten times.
  */
 
 void print_alphabet_x10(void)
