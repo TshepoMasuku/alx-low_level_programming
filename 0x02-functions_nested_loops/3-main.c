@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - check the code.
@@ -12,11 +11,11 @@ int main(void)
 {
     int r;
 
-    r = islower('H');
+    r = _islower('H');
     putchar(r + '0');
-    r = islower('o');
+    r = _islower('o');
     putchar(r + '0');
-    r = islower(108);
+    r = _islower(108);
     putchar(r + '0');
     putchar('\n');
     return (0);
