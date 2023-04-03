@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - This programme checks for alphabetic character.
- *
- * Returns: 1 on Success and 0 on Failure.
+ * _isalpha - This programme checks for alphabetic character.
+ * @c: Is the character being checked, for being alphabatic.
+ * Return: 1 if char is alphabetic character, otherwise 0.
  */
 
 int _isalpha(int c)
@@ -11,6 +11,13 @@ int _isalpha(int c)
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (c == ch)
+		{
+			return (1);
+		}
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		if (c == ch)
 		{
