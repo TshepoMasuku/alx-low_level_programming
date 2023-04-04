@@ -8,11 +8,11 @@
 
 int _isdigit(int c)
 {
-	int i;
+	int asc;
 
-	for (i = 0; i <= 9; i++)
+	for (asc = 48; asc <= 57; asc++)
 	{
-		if (c == i)
+		if (c == asc)
 		{
 			return (1);
 		}
