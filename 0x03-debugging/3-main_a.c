@@ -16,9 +16,9 @@ int main(void)
 	/*month =    4 || 2    */
 	/*day   =    1 || 29   */
 	/*year  = 1997 || 2000 */
-	month = 2;
-	day = 29;
-	year = 2000;
+	month = 4;
+	day = 1;
+	year = 1997;
 
 	printf("Date: %02d/%02d/%04d\n", month, day, year);
 
